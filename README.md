@@ -5,3 +5,5 @@
 MAKE SURE that replace the 'GOOGLE_CLOUD_PROJECT' and 'GOOGLE_CLOUD_REGION' with what is required.
 GOOGLE_CLOUD_PROJECT should be already linked to a billing account, if not followin the instruction in [som_project repo](https://github.com/drb3hn4m/som_project)
 ALSO note that GOOGLE_CLOUD_REGION is not zone! it's region!
+- make sure to delete all resources created on gcp vertex ai and google storage to avoid paying cost. You can find the used resouces from billing service
+
